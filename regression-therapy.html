@@ -7,74 +7,64 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #ffe6d6, #f3e6ff, #d6fff0, #fffacc);
-      color: #000; /* Черный текст */
+      background: linear-gradient(135deg, #ffe0d6, #f3e5f5, #d0f0e8, #fff9c4);
+      color: #000;
     }
+
     header {
-      background: rgba(255,255,255,0.6);
-      padding: 20px;
       text-align: center;
+      padding: 2rem;
     }
-    header h1 {
-      color: #5c3d7a;
-      margin: 0;
-      font-size: 2rem;
-    }
+
     nav a {
-      margin: 0 10px;
+      margin: 0 1rem;
       text-decoration: none;
-      color: #7a4f9d;
+      color: #333;
       font-weight: bold;
     }
+
     main {
-      padding: 30px 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
+      padding: 2rem;
     }
-    section {
-      background: rgba(255,255,255,0.7);
+
+    .block {
+      background: rgba(255, 255, 255, 0.6);
       border-radius: 20px;
-      padding: 25px 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      position: relative;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    section h2 {
-      margin-top: 0;
-      color: #5c3d7a;
-      font-size: 1.8rem;
-    }
-    section p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-    .icon {
-      width: 40px;
-      height: 40px;
-      display: inline-block;
-      margin-right: 10px;
-      vertical-align: middle;
-    }
-    .btn-tg {
-      display:inline-block; 
-      padding:10px 20px; 
-      background:#f3d1ff; 
-      color:#5c3d7a; 
-      border-radius:15px; 
-      text-decoration:none; 
-      font-weight:bold;
-      margin-top: 15px;
-    }
-    footer {
+
+    .block h2 {
+      color: #000;
+      margin-bottom: 1rem;
       text-align: center;
-      padding: 20px;
-      background: rgba(255,255,255,0.6);
-      margin-top: 40px;
+    }
+
+    .block p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      border-radius: 15px;
+      background: linear-gradient(90deg, #f8d5a3, #e1c6f0);
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: linear-gradient(90deg, #e1c6f0, #f8d5a3);
     }
   </style>
 </head>
@@ -84,43 +74,32 @@
     <nav>
       <a href="index.html">Главная</a>
       <a href="past-lives.html">Прошлые жизни</a>
-      <a href="regression-therapy.html">Регрессионная терапия</a>
-      <a href="healing-magic.html">Целительство и магия</a>
       <a href="training.html">Обучение</a>
       <a href="contact.html">Контакты</a>
     </nav>
   </header>
 
   <main>
-    <!-- Блок 1 -->
-    <section>
-      <h2>Погружение в прошлые жизни</h2>
-      <p>Сеанс регрессионной терапии — это магическое путешествие в тайны вашей души. Под мягким гипнотическим сопровождением вы сможете вспомнить события прошлых жизней, раскрыть внутренние ресурсы и гармонизировать своё настоящее.</p>
-    </section>
+    <div class="block">
+      <h2>Что такое регрессионная терапия</h2>
+      <p>Регрессионная терапия — это метод, позволяющий исследовать прошлые жизни и глубинные события, влияющие на вашу текущую жизнь. С помощью мягких направляемых техник гипноза вы можете обнаружить скрытые причины эмоциональных блоков, страхов и соматических симптомов.</p>
+    </div>
 
-    <!-- Блок 2 -->
-    <section>
-      <h2>Методика и виды</h2>
-      <p>Мы используем <strong>директивный</strong> и <strong>недирективный</strong> подходы: один мягко направляет ваше сознание, другой позволяет полностью раскрыться внутреннему опыту.</p>
-      <p>Основоположники метода — <em>Долорес Кэннон</em> и <em>Майкл Ньютон</em>, чьи техники помогли тысячам людей найти ответы на самые сокровенные вопросы.</p>
-    </section>
+    <div class="block">
+      <h2>Виды регрессионного гипноза</h2>
+      <p>Существуют различные подходы: директивный и недирективный гипноз. Директивный гипноз более структурирован, терапевт ведет клиента через конкретные воспоминания. Недирективный позволяет исследовать прошлое более мягко, клиент сам направляет процесс.</p>
+    </div>
 
-    <!-- Блок 3 -->
-    <section>
-      <h2>Как это помогает</h2>
-      <p>Регрессионная терапия способствует исцелению эмоциональных блоков, пониманию повторяющихся жизненных сценариев и гармонизации отношений. С её помощью многие находят внутренний покой и ощущение целостности, словно ключи к тайным дверям души.</p>
-    </section>
+    <div class="block">
+      <h2>Основоположники метода</h2>
+      <p>Долорес Кэннон и Майкл Ньютон — признанные исследователи прошлых жизней. Их работы помогают понять, как регрессия может использоваться для личного роста и целительства.</p>
+    </div>
 
-    <!-- Блок 4 -->
-    <section>
-      <h2>Запишитесь на сессию</h2>
-      <p>Сессии проходят онлайн через Telegram. Запись и обратная связь гарантированы. Погрузитесь в магию своих прошлых жизней и откройте новые возможности для личного роста.</p>
-      <a href="https://t.me/irinaingar" class="btn-tg">Написать в Telegram</a>
-    </section>
+    <div class="block">
+      <h2>Польза для целительства</h2>
+      <p>Регрессионная терапия может раскрыть скрытые травмы и блоки, которые влияют на физическое и эмоциональное здоровье. Снятие этих блоков открывает путь к гармонии, восстановлению энергии и внутреннему балансу.</p>
+      <a class="button" href="contact.html">Записаться на сессию</a>
+    </div>
   </main>
-
-  <footer>
-    <p>© 2025 Регрессионная терапия | Таллин, Эстония</p>
-  </footer>
 </body>
 </html>
