@@ -1,26 +1,26 @@
-/* Общие стили страницы */
+
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #1a0d3a; /* тёмный фиолетовый фон */
+  background-color: #1a0d3a; 
   margin: 0;
   padding: 0;
-  color: #d4c15e; /* тёмно-жёлтый текст по умолчанию */
+  color: #d4c15e; 
 }
 
 header {
-  background-color: #2e1a4b; /* тёмный фиолетовый хедер */
+  background-color: #2e1a4b; 
   padding: 20px;
   text-align: center;
 }
 
 header h1 {
-  color: #d4c15e; /* тёмно-жёлтый заголовок */
+  color: #d4c15e; 
   margin: 0;
   font-size: 2.5em;
 }
 
 nav a {
-  color: #d4c15e; /* тёмно-жёлтые ссылки */
+  color: #d4c15e; 
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
@@ -30,7 +30,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Приветственный блок на главной странице - исходный вид */
+
 main section {
   background: none;
   padding: 40px 20px;
@@ -40,18 +40,18 @@ main section {
 }
 
 main section h2 {
-  color: #d4c15e; /* тёмно-жёлтый заголовок */
+  color: #d4c15e; 
   font-size: 2em;
   margin-bottom: 20px;
 }
 
 main section p {
-  color: #d4c15e; /* тёмно-жёлтый текст */
+  color: #d4c15e; 
   font-size: 1.1em;
   line-height: 1.6;
 }
 
-/* Футер */
+
 footer {
   background-color: #2e1a4b;
   color: #d4c15e;
