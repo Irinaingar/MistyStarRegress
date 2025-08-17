@@ -23,9 +23,7 @@ header {
 }
 
 header h1 {
-  color: #FFFACD; /* LemonChiffon — мягкий лимонный */
-}
-
+  color: #FFFACD
 }
 
 nav a {
@@ -55,8 +53,7 @@ section {
 }
 
 section h2 {
-
-  color: #FFFACD; /* LemonChiffon — мягкий лимонный */
+color: #FFFACD 
 }
 
 }
