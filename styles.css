@@ -63,3 +63,55 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* Блок обучения */
+.courses h2 { margin-bottom: 12px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: rgba(255,255,255,0.88);
+  color: #1b0f2e;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #6a0dad;
+}
+
+.card ul {
+  padding-left: 18px;
+  margin: 10px 0 12px;
+}
+
+.meta { opacity: 0.85; margin: 6px 0 14px; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffd700, #e6b800);
+  color: #2a1842;
+  box-shadow: 0 6px 16px rgba(106,13,173,0.35);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(106,13,173,0.45); }
+
+.note {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Адаптив */
+@media (min-width: 700px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
