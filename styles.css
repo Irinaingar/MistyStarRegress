@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Arial', sans-serif;
   background-color: #1a0d3a; 
@@ -6,31 +5,25 @@ body {
   padding: 0;
   color: #d4c15e; 
 }
-
 header {
   background-color: #2e1a4b; 
   padding: 20px;
   text-align: center;
 }
-
 header h1 {
   color: #d4c15e; 
   margin: 0;
   font-size: 2.5em;
 }
-
 nav a {
   color: #d4c15e; 
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
-
-
 main section {
   background: none;
   padding: 40px 20px;
@@ -38,20 +31,16 @@ main section {
   box-shadow: none;
   text-align: center;
 }
-
 main section h2 {
   color: #d4c15e; 
   font-size: 2em;
   margin-bottom: 20px;
 }
-
 main section p {
   color: #d4c15e; 
   font-size: 1.1em;
   line-height: 1.6;
 }
-
-
 footer {
   background-color: #2e1a4b;
   color: #d4c15e;
