@@ -1,11 +1,9 @@
-<!DOCTYPE html><html lang='ru'><head><meta charset='UTF-8'><title>Контакты</title><link rel='stylesheet' href='styles.css'></head><body><header><h1>Контакты</h1><nav><a href='index.html'>Главная</a></nav></header><main><p>Для записи на сессию свяжитесь со мной в Telegram:</p><p><a class='btn' href='https://t.me/username' target='_blank'>Написать в Telegram</a></p></main></body></html>
-<a href="training.html">Обучение</a>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Контакты | Регрессионная терапия</title>
+  <title>Контакты | MistyStar Regress</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
@@ -15,46 +13,75 @@
       margin: 0;
       padding: 0;
     }
+
     header, footer {
       background: linear-gradient(135deg, #fbeff5, #fff7e0);
       padding: 20px;
       text-align: center;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
+
     header h1, footer p {
-      color: #b47c5a; /* мягкое золото */
+      color: #b47c5a;
       margin: 0;
     }
+
     nav a {
       color: #b47c5a;
       margin: 0 10px;
       text-decoration: none;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
     .block {
-      max-width: 800px;
+      max-width: 700px;
       margin: 40px auto;
       padding: 30px;
       background: linear-gradient(145deg, #f9e6f2, #fff9e6);
       border-radius: 20px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.1);
       text-align: center;
+      position: relative;
     }
+
+    /* Цветочки по углам блока */
+    .block::before, .block::after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      opacity: 0.6;
+    }
+    .block::before {
+      top: -10px;
+      left: -10px;
+      background-image: url('https://i.postimg.cc/3N0tHb0m/violet-flower.png'); /* фиалка */
+    }
+    .block::after {
+      bottom: -10px;
+      right: -10px;
+      background-image: url('https://i.postimg.cc/7Lx6J6ZQ/pion.png'); /* пион */
+    }
+
     .block h2 {
       color: #b47c5a;
       margin-bottom: 20px;
     }
+
     .block p {
       font-size: 1.1em;
-      line-height: 1.6;
+      line-height: 1.5;
       margin-bottom: 15px;
     }
+
     .button {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 8px 18px;
       background: linear-gradient(135deg, #f9e6f2, #fff9e6);
       color: #b47c5a;
       font-weight: bold;
@@ -63,19 +90,22 @@
       border: 2px solid #b47c5a;
       transition: all 0.3s ease;
     }
+
     .button:hover {
       background: #b47c5a;
       color: #fff9e6;
       transform: scale(1.05);
     }
+
     form {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 12px;
       margin-top: 20px;
     }
+
     input, textarea {
-      padding: 10px;
+      padding: 8px;
       border-radius: 10px;
       border: 2px solid #b47c5a;
       font-size: 1em;
@@ -84,15 +114,16 @@
       background: #fff9e6;
       color: #333;
     }
+
     textarea {
-      min-height: 120px;
+      min-height: 80px; /* меньшее окно для сообщения */
       resize: vertical;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Регрессионная терапия и целительство</h1>
+    <h1>MistyStar Regress</h1>
     <nav>
       <a href="index.html">Главная</a>
       <a href="past-lives.html">Прошлые жизни</a>
@@ -106,10 +137,9 @@
   <main>
     <div class="block">
       <h2>Свяжитесь со мной</h2>
-      <p>Я всегда рада новым ученикам и клиентам! Вы можете записаться на сессию или задать любые вопросы.</p>
-      <p><strong>Email:</strong> <a href="mailto:your@email.com">your@email.com</a></p>
-      <p><strong>Телефон:</strong> +372 123 4567</p>
-      <p><strong>Telegram:</strong> <a href="https://t.me/irinaingar" class="button" target="_blank">@irinaingar</a></p>
+      <p>Я всегда рада новым ученикам и клиентам! Напишите мне в Instagram или на почту.</p>
+      <p><strong>Email:</strong> <a href="mailto:psyhheja@gmail.com">psyhheja@gmail.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/mistystar_regress" class="button" target="_blank">@mistystar_regress</a></p>
 
       <form action="https://formspree.io/f/your-form-id" method="POST">
         <input type="text" name="name" placeholder="Ваше имя" required>
@@ -121,7 +151,11 @@
   </main>
 
   <footer>
-    <p>© 2025 Регрессионная терапия | Таллин, Эстония</p>
+    <p>© 2025 MistyStar Regress | Таллин, Эстония</p>
   </footer>
 </body>
 </html>
+
+     
+
+   
