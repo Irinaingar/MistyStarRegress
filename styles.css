@@ -162,6 +162,7 @@ footer {
   opacity: 0.07;
   pointer-events: none;
 }
+
 main section {
   background: linear-gradient(135deg, #4b2e83, #8a4fd3); 
   padding: 40px;
@@ -169,13 +170,15 @@ main section {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+
 main section h2 {
-  color: #d4c15e; 
+  color: #000000; 
   font-size: 2.2em;
   margin-bottom: 20px;
 }
+
 main section p {
-  color: #d4c15e; 
+  color: #000000; 
   font-size: 1.2em;
   line-height: 1.6;
 }
