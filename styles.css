@@ -174,9 +174,26 @@ footer {
   opacity: 0.07;
   pointer-events: none;
 }
-main section h2,
-main section p {
-  color: #d4c15e; 
+/* Приветственный блок на главной странице */
+main section {
+  background: linear-gradient(135deg, #4b2e83, #8a4fd3); /* мягкий мистический фиолетово-лиловый градиент */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
+
+main section h2 {
+  color: #d4c15e; /* тёмно-жёлтый, гармонирующий с шрифтами сайта */
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+main section p {
+  color: #d4c15e; /* тот же тёмно-жёлтый */
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
 
 
