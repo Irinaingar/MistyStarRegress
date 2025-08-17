@@ -22,7 +22,7 @@ header {
   text-align: center;
 }
 
-header h1, {
+header h1 {
   color: #FFFACD;
   text-shadow: 0 0 8px rgba(255, 255, 224, 0.6);
 }
