@@ -11,7 +11,7 @@
       margin: 0;
       padding: 0;
       background: linear-gradient(135deg, #ffe6d6, #f3e6ff, #d6fff0, #fffacc);
-      color: #333;
+      color: #000; /* Черный текст */
     }
     header {
       background: rgba(255,255,255,0.6);
@@ -40,13 +40,14 @@
     section {
       background: rgba(255,255,255,0.7);
       border-radius: 20px;
-      padding: 20px;
+      padding: 25px 20px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       position: relative;
     }
     section h2 {
       margin-top: 0;
-      color: #b276ff;
+      color: #5c3d7a;
+      font-size: 1.8rem;
     }
     section p {
       font-size: 1.1rem;
@@ -58,6 +59,16 @@
       display: inline-block;
       margin-right: 10px;
       vertical-align: middle;
+    }
+    .btn-tg {
+      display:inline-block; 
+      padding:10px 20px; 
+      background:#f3d1ff; 
+      color:#5c3d7a; 
+      border-radius:15px; 
+      text-decoration:none; 
+      font-weight:bold;
+      margin-top: 15px;
     }
     footer {
       text-align: center;
@@ -81,25 +92,30 @@
   </header>
 
   <main>
+    <!-- Блок 1 -->
     <section>
       <h2>Погружение в прошлые жизни</h2>
       <p>Сеанс регрессионной терапии — это магическое путешествие в тайны вашей души. Под мягким гипнотическим сопровождением вы сможете вспомнить события прошлых жизней, раскрыть внутренние ресурсы и гармонизировать своё настоящее.</p>
     </section>
 
+    <!-- Блок 2 -->
     <section>
       <h2>Методика и виды</h2>
-      <p>Мы используем <strong>директивный</strong> и <strong>недирективный</strong> подходы: один мягко направляет ваше сознание, другой позволяет полностью раскрыться внутреннему опыту. Основоположники метода — <em>Долорес Кэннон</em> и <em>Майкл Ньютон</em>, чьи техники помогли тысячам людей найти ответы на самые сокровенные вопросы.</p>
+      <p>Мы используем <strong>директивный</strong> и <strong>недирективный</strong> подходы: один мягко направляет ваше сознание, другой позволяет полностью раскрыться внутреннему опыту.</p>
+      <p>Основоположники метода — <em>Долорес Кэннон</em> и <em>Майкл Ньютон</em>, чьи техники помогли тысячам людей найти ответы на самые сокровенные вопросы.</p>
     </section>
 
+    <!-- Блок 3 -->
     <section>
       <h2>Как это помогает</h2>
       <p>Регрессионная терапия способствует исцелению эмоциональных блоков, пониманию повторяющихся жизненных сценариев и гармонизации отношений. С её помощью многие находят внутренний покой и ощущение целостности, словно ключи к тайным дверям души.</p>
     </section>
 
+    <!-- Блок 4 -->
     <section>
       <h2>Запишитесь на сессию</h2>
       <p>Сессии проходят онлайн через Telegram. Запись и обратная связь гарантированы. Погрузитесь в магию своих прошлых жизней и откройте новые возможности для личного роста.</p>
-      <a href="https://t.me/irinaingar" style="display:inline-block; padding:10px 20px; background:#f3d1ff; color:#5c3d7a; border-radius:15px; text-decoration:none; font-weight:bold;">Написать в Telegram</a>
+      <a href="https://t.me/irinaingar" class="btn-tg">Написать в Telegram</a>
     </section>
   </main>
 
