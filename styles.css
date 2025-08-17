@@ -116,19 +116,14 @@ footer {
   font-size: 0.95rem;
   opacity: 0.9;
 }
-
-/* Адаптив */
 @media (min-width: 700px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
 }
-/* Фон для страницы обучения */
 .training-bg {
   background: linear-gradient(135deg, #2b0040, #1a0f2e);
   background-attachment: fixed;
   color: #f5e6d3;
 }
-
-/* Золотые рамки */
 .gold-frame {
   border: 3px solid gold;
   border-radius: 20px;
@@ -139,8 +134,6 @@ footer {
   box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
   position: relative;
 }
-
-/* Вензеля (декоративные элементы в углах) */
 .gold-frame::before,
 .gold-frame::after {
   content: "✦";
@@ -177,13 +170,11 @@ main section {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-
 main section h2 {
   color: #d4c15e; 
   font-size: 2.2em;
   margin-bottom: 20px;
 }
-
 main section p {
   color: #d4c15e; 
   font-size: 1.2em;
